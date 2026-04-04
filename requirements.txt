@@ -1,8 +1,8 @@
-fastapi==0.110.0
-uvicorn==0.29.0
-opencv-python-headless==4.9.0.80
-numpy==1.26.4
-pyyaml==6.0.1
-pandas==2.2.2
-matplotlib==3.8.4
-open3d==0.18.0
+fastapi
+uvicorn
+opencv-python-headless
+numpy
+pyyaml
+pandas
+matplotlib
+python-multipart
