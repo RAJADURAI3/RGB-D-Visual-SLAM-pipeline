@@ -1,0 +1,32 @@
+dataset:
+  path:  "C:/Users/Hi/OneDrive/Desktop/SLAM/data/freiburg_xyz" 
+  max_frames: 300
+
+camera:
+  fx: 525.0
+  fy: 525.0
+  cx: 319.5
+  cy: 239.5
+
+slam:
+  orb_features: 2000
+  ransac_thresh: 1.0
+  depth_scale: 5000.0
+  max_depth: 4.0
+  stride: 6
+  keyframe_interval: 5
+
+loop_closure:
+  similarity_threshold: 0.75
+  min_frame_gap: 20
+  max_descriptor_distance: 50
+
+pose_graph:
+  information_scale: 150.0
+  loop_closure_information_scale: 200.0
+  max_correspondence_distance: 0.05
+  edge_prune_threshold: 0.25
+  preference_loop_closure: 2.0
+
+output:
+  results_dir: "results"
